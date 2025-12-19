@@ -1,0 +1,20 @@
+## 4. GitHub par kaise daalein? (Steps)
+
+1.  **Repository Banayein:** GitHub par jaakar "New Repository" par click karein.
+2.  **Initialize Karein:** Apne local folder mein terminal kholein aur ye commands chalayein:
+    ```bash
+    git init
+    git add .
+    git commit -m "Initial crypto project setup"
+    git branch -M main
+    git remote add origin https://github.com/APKA_USERNAME/REPO_NAME.git
+    git push -u origin main
+    ```
+
+
+
+---
+
+### Key Points Jo Yaad Rakhein:
+* **Private Keys:** Kabhi bhi apni `.env` file ya private keys GitHub par upload na karein.
+* **Dependencies:** Is project ko chalane ke liye aapko `npm install @openzeppelin/contracts` karna hoga.
