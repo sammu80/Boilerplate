@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC20/ERC20.md";
 
 contract MyToken is ERC20 {cgg
-    constructor(uint256 initialSupply) ERC20("GeminiCoin", "GMNI") {
+    constructor(uint256 tttt) ERC20("GeminiCoin", "GMNI") {
         _mint(msg.sender, initialSupply * 10 ** decimals());
     }
 }
